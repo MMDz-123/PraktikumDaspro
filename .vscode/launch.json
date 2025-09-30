@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ifelseCetakKRS2",
+            "request": "launch",
+            "mainClass": "jobsheet5.ifelseCetakKRS2",
+            "projectName": "PraktikumDaspro_90a63ec9"
+        },
+        {
+            "type": "java",
+            "name": "switchCetakKRS2",
+            "request": "launch",
+            "mainClass": "jobsheet5.switchCetakKRS2",
+            "projectName": "PraktikumDaspro_90a63ec9"
+        },
+        {
+            "type": "java",
             "name": "ifCetakKRS2",
             "request": "launch",
             "mainClass": "jobsheet5.ifCetakKRS2",
