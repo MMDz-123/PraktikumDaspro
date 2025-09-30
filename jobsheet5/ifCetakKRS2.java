@@ -11,16 +11,10 @@ public class ifCetakKRS2 {
         System.out.print("Apakah UKT sudah lunas? (true/false): ");
         System.out.println();
         boolean isLunas= scanner.nextBoolean();
+        String pesan= (isLunas)? "Pembayaran UKT terverifikasi"+"\nSilahkan minta TTD DPA masing-masing": "Registrasi ditolak, Silahkan lunasi UKT terlebih dahulu";
 
-        if(isLunas){
-            System.out.println("Pembayaran UKT terverifikasi");
-            System.out.println("Silahkan minta TTD DPA masing-masing");
-            System.out.println("====================================");
-        }
-        else{
-            System.out.println("Registrasi ditolak, Silahkan lunasi UKT terlebih dahulu");
-            System.out.println("=======================================================");
-        }
+        System.out.println(pesan);
+        
        scanner.close();
 
     }
