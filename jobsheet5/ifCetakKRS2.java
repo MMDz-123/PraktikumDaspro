@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class ifCetakKRS2 {
 
     public static void main(String[] args) {
+        /* 
         Scanner scanner= new Scanner(System.in);
 
         System.out.println("====== CETAK KRS SIAKAD ======");
@@ -17,5 +18,22 @@ public class ifCetakKRS2 {
         
        scanner.close();
 
+    }
+}
+*/
+    Scanner sc= new Scanner(System.in);
+
+    int angka;
+    System.out.print("Masukkan angka, bebas: ");
+    angka= sc.nextInt();
+
+    if(angka%2 == 0){
+        System.out.println(angka+ " adalah bilangan genap");
+    }
+    else{
+        System.out.println(angka+ " adalah bilangan ganjil");
+    }
+
+    sc.close();
     }
 }
