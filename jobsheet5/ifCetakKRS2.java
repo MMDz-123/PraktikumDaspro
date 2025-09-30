@@ -22,7 +22,7 @@ public class ifCetakKRS2 {
 }
 */
     Scanner sc= new Scanner(System.in);
-
+    /* 
     int angka;
     System.out.print("Masukkan angka, bebas: ");
     angka= sc.nextInt();
@@ -33,7 +33,30 @@ public class ifCetakKRS2 {
     else{
         System.out.println(angka+ " adalah bilangan ganjil");
     }
+    */
+    String user;
+    int SKS;
 
+    System.out.print("Sebagai apakah Anda? ");
+    user= sc.nextLine().toLowerCase();
+
+    if(user.equals("dosen")){
+        System.out.println("Akses diterima (Dosen)");
+    }
+    else if(user.equals("mahasiswa")){
+        System.out.print("Masukkan jumlah SKS yang diambil: ");
+        SKS= sc.nextInt();
+        if(SKS>=12){
+            System.out.println("Akses diterima (Mahasiswa aktif)");
+        }
+        else{
+            System.out.println("Akses ditolak, SKS kurang dari 12");
+        }
+    }
+    else{
+        System.out.println("Akses ditolak, bukan CA Polinema");
+    }
+    
     sc.close();
     }
 }
