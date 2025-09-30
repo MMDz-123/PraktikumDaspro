@@ -17,6 +17,10 @@ public class ifCetakKRS2 {
             System.out.println("Silahkan minta TTD DPA masing-masing");
             System.out.println("====================================");
         }
+        else{
+            System.out.println("Registrasi ditolak, Silahkan lunasi UKT terlebih dahulu");
+            System.out.println("=======================================================");
+        }
        scanner.close();
 
     }
