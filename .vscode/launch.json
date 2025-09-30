@@ -4,7 +4,13 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
+        {
+            "type": "java",
+            "name": "ifCetakKRS2",
+            "request": "launch",
+            "mainClass": "jobsheet5.ifCetakKRS2",
+            "projectName": "PraktikumDaspro_90a63ec9"
+        },
         {
             "type": "java",
             "name": "Current File",
