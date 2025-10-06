@@ -104,7 +104,7 @@ public class CM1_AhmadAdrian {
         System.out.println("NIM \t: \t"+ NIM);
         System.out.println("");
         System.out.println("Mata Kuliah \t \t \tUTS \tUAS \tTugas \tNilai Akhir \t Nilai Huruf \tSTATUS");
-        System.out.println("=========================================================================");
+        System.out.println("============================================================================");
         System.out.println("Algoritma dan Pemrograman \t"+ nUts1 +"\t" + nUas1 + "\t" + nTug1 + "\t"+ nAkhir1+ "\t" + "\t" + "\t" + nHrf1 + "\t" + lulus1);
         System.out.println("Struktur Data \t \t \t"+ nUts2 +"\t" + nUas2 + "\t" + nTug2 + "\t"+ nAkhir2+ "\t" + "\t" + "\t" + nHrf2 + "\t" + lulus2);
 
@@ -114,7 +114,7 @@ public class CM1_AhmadAdrian {
                 lulSem="LULUS";
             }
             else{
-                lulSem="TIDAK LULUS, nilai < 70";
+                lulSem="TIDAK LULUS, rata-rata < 70";
             }
         }
         else{
