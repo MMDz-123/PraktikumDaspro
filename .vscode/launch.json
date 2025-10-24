@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SiakadFor2",
+            "request": "launch",
+            "mainClass": "jobsheet7.SiakadFor2",
+            "projectName": "PraktikumDaspro_af172121"
+        },
+        {
+            "type": "java",
             "name": "ifelseCetakKRS2",
             "request": "launch",
             "mainClass": "jobsheet5.ifelseCetakKRS2",
