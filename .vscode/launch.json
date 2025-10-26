@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "tugas1_2",
+            "request": "launch",
+            "mainClass": "jobsheet7.tugas1_2",
+            "projectName": "PraktikumDaspro_af172121"
+        },
+        {
+            "type": "java",
             "name": "KafeDoWhile2",
             "request": "launch",
             "mainClass": "jobsheet7.KafeDoWhile2",
