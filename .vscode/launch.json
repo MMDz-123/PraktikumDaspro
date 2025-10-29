@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Square2",
+            "request": "launch",
+            "mainClass": "jobsheet8.Square2",
+            "projectName": "PraktikumDaspro_af172121"
+        },
+        {
+            "type": "java",
             "name": "Star2",
             "request": "launch",
             "mainClass": "jobsheet8.Star2",
