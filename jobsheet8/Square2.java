@@ -7,11 +7,11 @@ public class Square2 {
         System.out.print("Masukkan nilai n= ");
         int n=scanner.nextInt();
 
-        for(int iOut=1; iOut<=n; iOut++){
-            for(int i=1; i<=n; i++){
+        for(int iOut=0; iOut<=n; iOut++){
+            for(int i=0; i<=n; i++){
             System.out.print("*");;
             }
-            System.out.println();
+            
         }
 
 
