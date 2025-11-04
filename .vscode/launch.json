@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Tugas1_02",
+            "request": "launch",
+            "mainClass": "jobsheet9.Tugas1_02",
+            "projectName": "PraktikumDaspro_af172121"
+        },
+        {
+            "type": "java",
+            "name": "SearchNilai02",
+            "request": "launch",
+            "mainClass": "jobsheet9.SearchNilai02",
+            "projectName": "PraktikumDaspro_af172121"
+        },
+        {
+            "type": "java",
+            "name": "ArrayRataNilai02",
+            "request": "launch",
+            "mainClass": "jobsheet9.ArrayRataNilai02",
+            "projectName": "PraktikumDaspro_af172121"
+        },
+        {
+            "type": "java",
+            "name": "ArrayNilai02",
+            "request": "launch",
+            "mainClass": "jobsheet9.ArrayNilai02",
+            "projectName": "PraktikumDaspro_af172121"
+        },
+        {
+            "type": "java",
+            "name": "ArrayBilangan02",
+            "request": "launch",
+            "mainClass": "jobsheet9.ArrayBilangan02",
+            "projectName": "PraktikumDaspro_af172121"
+        },
+        {
+            "type": "java",
+            "name": "Triangle2",
+            "request": "launch",
+            "mainClass": "jobsheet8.Triangle2",
+            "projectName": "PraktikumDaspro_af172121"
+        },
+        {
+            "type": "java",
             "name": "Square2",
             "request": "launch",
             "mainClass": "jobsheet8.Square2",
